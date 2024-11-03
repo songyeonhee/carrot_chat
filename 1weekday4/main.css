@@ -1,0 +1,115 @@
+.chat-box {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin: 12px 15px 5px 10px;
+}
+
+.chat-box__time {
+  font-size: 14px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.chat-box__text {
+  width: 290px;
+  font-size: 17px;
+  color: white;
+  background-color: var(--send-primary);
+  padding: 15px;
+  border-radius: 19px;
+}
+
+.chat-box2 {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  margin: 15px 0 15px 15px;
+}
+
+.chat-box2-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  border: 2px solid gainsboro;
+  border-radius: 120px;
+  margin: 0 10px 0 5px;
+}
+
+.chat-box2-photo img {
+  width: 30px;
+  padding: 7px;
+}
+
+.chat-box2__text {
+  font-size: 17px;
+  width: 180px;
+  background-color: var(--recieve-primary);
+  color: black;
+  padding: 15px;
+  border-radius: 19px;
+}
+
+.chat-box2__time {
+  font-size: 14px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.chat-date {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border: 2px solid gainsboro;
+  border-radius: 7px;
+  padding: 30px 0 30px 15px;
+  margin: 20px 20px 30px 20px;
+}
+
+.chat-date-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.chat-date__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  border: 1px solid gainsboro;
+  border-radius: 50px;
+  padding: 2px;
+  margin: 0 5px 5px 5px;
+}
+
+.chat-date__icon img {
+  width: 15px;
+}
+
+.chat-date__time {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.chat-date__text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 11px 0 0 2px;
+}
+
+.alarm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+}
